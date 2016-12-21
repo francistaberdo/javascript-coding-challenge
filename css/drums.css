@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: #fff;
+}
+
+.all-container{
+    height: 100vh;
+    background: url('../assets/concert.jpg') center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+kbd{
+    font-family: 'Space Mono', monospace;
+    font-size: 38px;
+    margin: -12px auto 8px;
+}
+
+.sound{
+    color: #ffc600;
+    margin: auto;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 12px auto;
+}
+
+.key{
+    margin: auto;
+    height: 40px;
+    width: 40px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    padding: 48px;
+    border: 4px solid #111;
+    background: rgba(0,0,0,0.4);
+    border-radius: 8px;
+    transition: all 0.07s;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.playing{
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 10px #ffc600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
