@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflowX: hidden;
+    font-family: 'Space Mono', monospace;
+    color: #fff;
+    cursor: default;
+}
+
+.background{
+    background: url('../assets/galaxy.jpg') right center no-repeat;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.clock{
+    height: 200px;
+    width: 200px;
+    border: 7px solid #fff;
+    border-radius: 100%;
+    margin: auto;
+    background: rgba(130,80,130,0.5);
+    box-shadow: inset 0 7px 12px #111;
+    display: flex;
+    position: relative;
+    padding: 12px;
+}
+
+.hand{
+    height: 4px;
+    width: 45%;
+    background: #000;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    margin: auto;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.42, 0, 0.38, 3.03);
+    
+}
+
+/* FOOTER */
+
+footer{
+    height: 300px;
+    background: rgba(3,3,3,0.5);
+    display: flex;
+}
+
+.copy{
+    margin: auto;
+    text-align: center;
+    line-height: 32px;
+}
+
+.but{
+    color: #ffc600;
+}
+
+.github{
+    color: #fff;
+}
+
+.github:hover{
+    color: #ffc600;
+}
+
+.subtitle{
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
